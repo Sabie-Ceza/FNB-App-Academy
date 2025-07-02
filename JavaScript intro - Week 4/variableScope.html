@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <p id="outputText"></p>
+
+    <script>
+        someFunction(); //call a function
+
+        function someFunction(){
+            var someVariable = 100;
+            document.getElementById("outputText").innerHTML = someVariable; // it will be visible ans usable
+        }
+           //document.getElementById("outputText").innerHTML = someVariable;  it wont work because it is outside the function. 
+    </script>
+    
+</body>
+</html>
